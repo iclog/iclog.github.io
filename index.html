@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 <meta property="og:type" content="website">
 <meta property="og:title" content="Clog Site">
 <meta property="og:url" content="http://example.com/index.html">
@@ -193,7 +193,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-01-05 13:21:41" itemprop="dateModified" datetime="2022-01-05T13:21:41+08:00">2022-01-05</time>
+      <time title="修改时间：2022-01-05 17:43:19" itemprop="dateModified" datetime="2022-01-05T17:43:19+08:00">2022-01-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -216,14 +216,143 @@
     
     <div class="post-body" itemprop="articleBody">
           <p>今天为大家带来一款全新的静态博客写作平台——<code>clog</code>。它是基于hexo进行包装，即为hexo打造了一套UI用来提高写作效率。目前是免费使用，未来也会是免费使用的，所以大家请放心食用。接下来我将为大家介绍一下如何使用：</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/01/03/clog%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+<h1 id="反馈"><a href="#反馈" class="headerlink" title="反馈"></a>反馈</h1><p>目前平台还处于初始阶段，对于用户体验还有所欠缺，如果在使用的过程有更好的想法可以反馈给作者(群：734633156)。当然bug是免不了的，在使用中如果有任何bug也麻烦及时反馈，耐心等待。</p>
+<h1 id="一键使用"><a href="#一键使用" class="headerlink" title="一键使用"></a>一键使用</h1><p>文档写的太详细也会使人失去耐心，所以一款好用的软件必须要有一个快速上手的介绍，接下来将用五步来成功部署博客。</p>
+<ol>
+<li><p>第一步：填写同步配置信息，在插件页找到hexo-deployer-git插件，点击中间的按钮，填写配置信息。</p>
+<blockquote>
+<p>如果你是一个高手或者需要配置多个部署平台，那么可以选择最右边那个小齿轮的按钮，这样可以直接上手yaml配置文件。</p>
+</blockquote>
+</li>
+<li><p>第二步：点击启动按钮，停止操作等待启动成功</p>
+</li>
+<li><p>第三步：点击编译按钮，停止操作等待编译成功提示，如果长时间未提示，请查看日志，联系作者寻找解决方案</p>
+</li>
+<li><p>点击电脑预览按钮，即可预览Hello World博客页面</p>
+</li>
+<li><p>点击部署按钮，即可同步到github上，由于使用的是香港服务器所以不用担心被强问题</p>
+<blockquote>
+<p>一个最简单的部署预览过程，熟悉此过程后就可以在文章页，写博客，然后操作以上步骤进行预览发布了。</p>
+</blockquote>
+<h1 id="详细介绍"><a href="#详细介绍" class="headerlink" title="详细介绍"></a>详细介绍</h1><p>在使用的过程中如果有不清楚的地方可以来这里查找具体问题</p>
+<h2 id="控制面板"><a href="#控制面板" class="headerlink" title="控制面板"></a>控制面板</h2><p>控制面板包含的功能比较多，主要有以下功能：主题编译配置、后台日志、安装插件、迁移、安装主题、启动（服务）、编译、删除、部署、清缓存、下载等。<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/control.png" alt="控制面板"><br>从上图可以看出每个功能都标注上了序号，接下来将按照序号的顺序介绍每个功能：</p>
+</li>
+<li><p><strong>控制面板</strong></p>
+</li>
+<li><p><strong>文章</strong>：<code>发布</code> <code>更新</code> <code>修改</code>文章内容以及内置属性的地方（文章标签、归类、时间等<strong>FrontMatter</strong>属性）</p>
+</li>
+<li><p><strong>搜索</strong>：根据关键在所有文章中搜索</p>
+</li>
+<li><p><strong>主题编辑</strong>：在这里可以更改主题的默认配置，甚至是魔改主题（自定义）</p>
+</li>
+<li><p><strong>配置</strong>：主题编辑以及文章编辑器的配置项</p>
+</li>
+<li><p><strong>clog文档地址</strong></p>
+</li>
+<li><p><strong>账户信息</strong>：可以在这里修改密码，更换绑定邮箱。</p>
+</li>
+<li><p>控制台：博客编译配置、编译文件信息统计</p>
+</li>
+<li><p>后台日志：操作的后台日志，出现问题可以在这里查看原因</p>
+</li>
+<li><p>安装插件：安装hexo市场上插件，实现更加复杂的需求</p>
+</li>
+<li><p>安装主题：安装hexo市场上多元化主题</p>
+</li>
+<li><p>迁移：针对其他平台的md文件，可以使用迁移一键同步</p>
+</li>
+<li><p>启动（服务）：相当对npm install，即安装需要的插件、<code>编译部署</code>等操作需要再启动后才能执行</p>
+</li>
+<li><p><strong>编译</strong>：写完文章以后需要编译成html才能预览以及部署成功</p>
+</li>
+<li><p>删除：删除编译后的静态文件，不会删除博客的md文件，一般是主题设置了缓存下使用可以编译最新的文章</p>
+</li>
+<li><p>部署：同步到github、gitee、netflix、服务器等平台</p>
+</li>
+<li><p>清缓存：当系统出现未知、不能操作的情况下使用，重新登录后即可正常</p>
+</li>
+<li><p>下载：下载当前博客所有元文件</p>
+</li>
+<li><p>取消（编译配置更改）：撤销当前编译配置更改操作</p>
+</li>
+<li><p>保存（最新配置）：保存当前最新编译配置</p>
+</li>
+<li><p>电脑：电脑端预览</p>
+</li>
+<li><p>移动：移动端预览，这里有手机和pad两种机型，横屏竖屏两个模式</p>
+</li>
+</ol>
+<h3 id="后台日志"><a href="#后台日志" class="headerlink" title="后台日志"></a>后台日志</h3><p>展示后台操作日志的地方，可以具体了解后台操作过程以及出错原因<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/log.png"></p>
+<ol>
+<li>预览</li>
+<li>清空当前日志</li>
+</ol>
+<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><p>插件可以帮助我们实现一些hexo没有的功能，具体有哪些可以上<a target="_blank" rel="noopener" href="https://hexo.io/plugins/">平台</a>了解，后面有时间也会整理一些好用常用的插件。<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/plugin.png"></p>
+<ol>
+<li>搜索插件</li>
+<li>市场上所有的插件</li>
+<li>本地已经安装的插件</li>
+<li>删除（安装）插件</li>
+<li>此类功能是定制的插件才有的（hexo-deployer-git）<blockquote>
+<p>让用户可以有一个ui填写配置的地方，不需要写yaml配置文件</p>
+</blockquote>
+</li>
+<li>查看所有配置源文件、修改后关闭即可生效</li>
+</ol>
+<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>和插件类似，可以选择一些比较好看的主题安装体验<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/theme.png"></p>
+<ol>
+<li>搜索主题</li>
+<li>官方所有主题<blockquote>
+<p>注意： 不是所有官方主题都可以使用，有的主题不再维护或者其他原因导致不能安装使用，但是只是少数，大多都是可以使用的。</p>
+</blockquote>
+</li>
+<li>本地已经安装的主题</li>
+<li>下载别人魔改的主题</li>
+<li>上传自己魔改的主题给他人使用<blockquote>
+<p>魔改的主题下载安装都需要非常谨慎，下载不受官方保护，上传需要等到官方审核</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="迁移"><a href="#迁移" class="headerlink" title="迁移"></a>迁移</h3><p>为了方便其他平台的用户，可以是用迁移将以前的文章同步过来。迁移目前支持三种模式：</p>
+<pre><code>a. 单个文件上传：如果上传的文件需要修改文章属性或者内容时建议使用
+b. 多文件上传：文件比较多的情况下可以使用
+c. 压缩包上传：此类操作只针对原hexo用户
+</code></pre>
+<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p>文章页主要是用来发布文章的，在这里还可以选择新增页面，以及创建模版文件<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/note.png"></p>
+<ol>
+<li>新建一篇草稿文章</li>
+<li>新建一篇正式文章</li>
+<li>创建页面Page<blockquote>
+<p>可以理解为创建一个菜单，比如<strong>关于我</strong>页面，或者<strong>分类</strong>页面</p>
+</blockquote>
+</li>
+<li>刷新笔记</li>
+<li>下载所有博客md文件，备份防止丢失</li>
+<li>隐藏不关心的笔记类型（草稿、页面、模版）</li>
+<li>文章标题</li>
+<li>选择模版</li>
+<li>发布按钮，发布完之后选择编译就可以看见最新的博客</li>
+<li>修改md文件名称</li>
+<li>删除md文件</li>
+<li>下载md文件</li>
+<li>快捷键栏</li>
+<li>辅助栏</li>
+</ol>
+<h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><p>在搜索页中可以根据关键字检索所有文章，点击查询的结果可以跳转到指定的位置<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/search.png"></p>
+<ol>
+<li>刷新搜索</li>
+<li>清空搜索记录</li>
+<li>折叠搜索结果</li>
+<li>大小写敏感开启</li>
+<li>排除此记录</li>
+</ol>
+<h2 id="主题编辑"><a href="#主题编辑" class="headerlink" title="主题编辑"></a>主题编辑</h2><p>可以在线对下载的主题进行编辑，达到魔改效果，适合习惯自定义主题的用户<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/theme_edit.png"></p>
+<ol>
+<li>刷新服务器下载的主题</li>
+<li>主题编辑选择</li>
+</ol>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>对文章编辑器以及主题编辑器的配置进行更改，可以修改文章编辑器的markdown主题，编辑器模式…，具体效果可以自行体验<br><img src="https://cdn.jsdelivr.net/gh/iclog/image.github.io@master/setting.png"></p>
+
       
     </div>
 
@@ -257,7 +386,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">John Doe</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
     </div>
@@ -265,7 +394,7 @@
 
   
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
 
   
 
